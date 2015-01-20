@@ -5,6 +5,7 @@
 	</head>
 
 	<body>
-		Nytår
+		<h1>Må jeg sige Godt Nytår?</h1>
+		<div class="answer">{{$answer}}</div>
 	</body>
 </html>

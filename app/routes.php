@@ -13,5 +13,7 @@
 
 Route::get('/', function()
 {
-	return View::make('newyear');
+	$answer = 'Nej';
+	
+	return View::make('newyear')->with(['answer' => $answer]);
 });
